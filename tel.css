@@ -1,0 +1,62 @@
+*{
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    display: grid;
+    place-items: center;
+    padding-top: 200px;
+    background-color: rgb(0, 0, 0);
+    color: azure;
+
+}
+
+.container{
+    padding: 20px;
+    background-color: rgb(2, 12, 21);
+    box-shadow: 2px 2px rgb(103, 1, 1);
+    border-radius: 4px;
+}
+
+.container input{
+    height: 50px;
+    width: 500px;
+    background-color: transparent;
+    outline: none;
+    border: solid 2px rgb(193, 2, 2);
+    padding: 0px 15px ;
+    font-size: 18px;
+    color: red;
+}
+
+.container p button{
+    height: 50px;
+    width: 500px;
+    background-color: rgb(255, 0, 0);
+    border-color: rgb(255, 0, 0);
+    color: black;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.container h3{
+    color: rgb(255, 2, 2);
+    font-size: 30px;
+    text-align: center;
+}
+
+@media screen and (max-width : 500px){
+    .container input{
+        height: 50px;
+        width: 300px;
+    }
+    .container h3{
+        font-size: 15px;
+    }
+    .container p button{
+        height: 50px;
+        width: 300px;
+    }
+       
+}
