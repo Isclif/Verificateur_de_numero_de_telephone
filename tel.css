@@ -6,17 +6,18 @@
 body{
     display: grid;
     place-items: center;
-    padding-top: 200px;
-    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 132, 248, 0);
     color: azure;
 
 }
 
 .container{
+    
     padding: 20px;
-    background-color: rgb(2, 12, 21);
+    background-color: black;
     box-shadow: 2px 2px rgb(103, 1, 1);
     border-radius: 4px;
+    margin-top: 70px;
 }
 
 .container input{
@@ -42,11 +43,34 @@ body{
 
 .container h3{
     color: rgb(255, 2, 2);
-    font-size: 30px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.phrase{
+    background: linear-gradient(-55deg, rgb(255, 0, 0) 29%, black 29.1%, black 68%, rgb(255, 0, 0) 68.1%);
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 20px;
+    padding: 10px 30px;
+    box-shadow: 2px 2px rgb(0, 0, 0);
+}
+.phrase p{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: larger;
     text-align: center;
 }
 
 @media screen and (max-width : 500px){
+    .container{
+    
+        padding: 20px;
+        background-color: black;
+        box-shadow: 2px 2px rgb(103, 1, 1);
+        border-radius: 4px;
+        margin-top: 70px;
+    }
     .container input{
         height: 50px;
         width: 300px;
@@ -60,3 +84,4 @@ body{
     }
        
 }
+
