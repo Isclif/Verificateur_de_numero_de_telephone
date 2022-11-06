@@ -2,101 +2,101 @@ let check = document.querySelector(".verifier");
 let number = document.querySelector(".numero");
 let text = document.querySelector(".texte");
 
-let regex1 = /^\+?237 ?(( ?\d{3}[- ]*))\d{3}[ -]?\d{2}$/;//Cameroun
+let regex1 = /^\+?237 ?(( ?\d{3}[- ]*))\d{3}[ -]?\d{3}$/;//Cameroun
 
-let regex2 = /^\+?93 ?(( ?\d{3}[- ]*))\d{3}[ -]?\d{2}$/;//Afghanistan
+let regex2 = /^\+?93 ?(( ?\d{3}[- ]*))\d{3}[ -]?\d{3}$/;//Afghanistan
 
-let regex3 = /^\+?27 ?(( ?\d{3}[- ]*))\d{3}[ -]?\d{2}$/;//afrique du sud
+let regex3 = /^\+?27 ?(( ?\d{3}[- ]*))\d{3}[ -]?\d{3}$/;//afrique du sud
 
-let regex4 = /^\+?213 ?(( ?\d{3}[- ]*))\d{3}[ -]?\d{2}$/;//Algerie
+let regex4 = /^\+?213 ?(( ?\d{3}[- ]*))\d{3}[ -]?\d{3}$/;//Algerie
 
-let regex5 = /^\+?244 ?(( ?\d{3}[- ]*))\d{3}[ -]?\d{2}$/;//angola
+let regex5 = /^\+?244 ?(( ?\d{3}[- ]*))\d{3}[ -]?\d{3}$/;//angola
 
-let regex6 = /^\+?229 ?(( ?\d{3}[- ]*))\d{3}[ -]?\d{2}$/;//benin
+let regex6 = /^\+?229 ?(( ?\d{3}[- ]*))\d{3}[ -]?\d{3}$/;//benin
 
-let regex7 = /^\+?267 ?(( ?\d{3}[- ]*))\d{3}[ -]?\d{2}$/;//botswana
+let regex7 = /^\+?267 ?(( ?\d{3}[- ]*))\d{3}[ -]?\d{3}$/;//botswana
 
-let regex8 = /^\+?226 ?(( ?\d{3}[- ]*))\d{3}[ -]?\d{2}$/;//Burkina faso
+let regex8 = /^\+?226 ?(( ?\d{3}[- ]*))\d{3}[ -]?\d{3}$/;//Burkina faso
 
-let regex9 = /^\+?257 ?(( ?\d{3}[- ]*))\d{3}[ -]?\d{2}$/;//Burundi
+let regex9 = /^\+?257 ?(( ?\d{3}[- ]*))\d{3}[ -]?\d{3}$/;//Burundi
 
-let regex10 = /^\+?238 ?(( ?\d{3}[- ]*))\d{3}[ -]?\d{2}$/;//Cap vert
+let regex10 = /^\+?238 ?(( ?\d{3}[- ]*))\d{3}[ -]?\d{3}$/;//Cap vert
 
-let regex12 = /^\+?269 ?(( ?\d{3}[- ]*))\d{3}[ -]?\d{2}$/;//Comores
+let regex12 = /^\+?269 ?(( ?\d{3}[- ]*))\d{3}[ -]?\d{3}$/;//Comores
 
-let regex13 = /^\+?225 ?(( ?\d{3}[- ]*))\d{3}[ -]?\d{2}$/;//Cote d'ivoire
+let regex13 = /^\+?225 ?(( ?\d{3}[- ]*))\d{3}[ -]?\d{3}$/;//Cote d'ivoire
 
-let regex14 = /^\+?253 ?(( ?\d{3}[- ]*))\d{3}[ -]?\d{2}$/;//Djibouti
+let regex14 = /^\+?253 ?(( ?\d{3}[- ]*))\d{3}[ -]?\d{3}$/;//Djibouti
 
-let regex15 = /^\+?20 ?(( ?\d{3}[- ]*))\d{3}[ -]?\d{2}$/;//Egypte
+let regex15 = /^\+?20 ?(( ?\d{3}[- ]*))\d{3}[ -]?\d{3}$/;//Egypte
 
-let regex16 = /^\+?251 ?(( ?\d{3}[- ]*))\d{3}[ -]?\d{2}$/;//Ethiopie
+let regex16 = /^\+?251 ?(( ?\d{3}[- ]*))\d{3}[ -]?\d{3}$/;//Ethiopie
 
-let regex17 = /^\+?241 ?(( ?\d{3}[- ]*))\d{3}[ -]?\d{2}$/;//Gabon
+let regex17 = /^\+?241 ?(( ?\d{3}[- ]*))\d{3}[ -]?\d{3}$/;//Gabon
 
-let regex18 = /^\+?220 ?(( ?\d{3}[- ]*))\d{3}[ -]?\d{2}$/;//Gambi
+let regex18 = /^\+?220 ?(( ?\d{3}[- ]*))\d{3}[ -]?\d{3}$/;//Gambi
 
-let regex19 = /^\+?233 ?(( ?\d{3}[- ]*))\d{3}[ -]?\d{2}$/;//Ghana
+let regex19 = /^\+?233 ?(( ?\d{3}[- ]*))\d{3}[ -]?\d{3}$/;//Ghana
 
-let regex20 = /^\+?224 ?(( ?\d{3}[- ]*))\d{3}[ -]?\d{2}$/;//Guinee
+let regex20 = /^\+?224 ?(( ?\d{3}[- ]*))\d{3}[ -]?\d{3}$/;//Guinee
 
-let regex21 = /^\+?245 ?(( ?\d{3}[- ]*))\d{3}[ -]?\d{2}$/;//Guinnee Bisseau
+let regex21 = /^\+?245 ?(( ?\d{3}[- ]*))\d{3}[ -]?\d{3}$/;//Guinnee Bisseau
 
-let regex22 = /^\+?240 ?(( ?\d{3}[- ]*))\d{3}[ -]?\d{2}$/;//Guinnee Equqtoriale
+let regex22 = /^\+?240 ?(( ?\d{3}[- ]*))\d{3}[ -]?\d{3}$/;//Guinnee Equqtoriale
 
-let regex23 = /^\+?254 ?(( ?\d{3}[- ]*))\d{3}[ -]?\d{2}$/;//Kenia
+let regex23 = /^\+?254 ?(( ?\d{3}[- ]*))\d{3}[ -]?\d{3}$/;//Kenia
 
-let regex24 = /^\+?266 ?(( ?\d{3}[- ]*))\d{3}[ -]?\d{2}$/;//Lesotho
+let regex24 = /^\+?266 ?(( ?\d{3}[- ]*))\d{3}[ -]?\d{3}$/;//Lesotho
 
-let regex25 = /^\+?261 ?(( ?\d{3}[- ]*))\d{3}[ -]?\d{2}$/;//Madagascar
+let regex25 = /^\+?261 ?(( ?\d{3}[- ]*))\d{3}[ -]?\d{3}$/;//Madagascar
 
-let regex26 = /^\+?265 ?(( ?\d{3}[- ]*))\d{3}[ -]?\d{2}$/;//malawi
+let regex26 = /^\+?265 ?(( ?\d{3}[- ]*))\d{3}[ -]?\d{3}$/;//malawi
 
-let regex27 = /^\+?212 ?(( ?\d{3}[- ]*))\d{3}[ -]?\d{2}$/;//Maroc
+let regex27 = /^\+?212 ?(( ?\d{3}[- ]*))\d{3}[ -]?\d{3}$/;//Maroc
 
-let regex28 = /^\+?230 ?(( ?\d{3}[- ]*))\d{3}[ -]?\d{2}$/;//Maurice
+let regex28 = /^\+?230 ?(( ?\d{3}[- ]*))\d{3}[ -]?\d{3}$/;//Maurice
 
-let regex29 = /^\+?222 ?(( ?\d{3}[- ]*))\d{3}[ -]?\d{2}$/;//Mauritani
+let regex29 = /^\+?222 ?(( ?\d{3}[- ]*))\d{3}[ -]?\d{3}$/;//Mauritani
 
-let regex30 = /^\+?258 ?(( ?\d{3}[- ]*))\d{3}[ -]?\d{2}$/;//Mozambique
+let regex30 = /^\+?258 ?(( ?\d{3}[- ]*))\d{3}[ -]?\d{3}$/;//Mozambique
 
-let regex31 = /^\+?264 ?(( ?\d{3}[- ]*))\d{3}[ -]?\d{2}$/;//Namibie
+let regex31 = /^\+?264 ?(( ?\d{3}[- ]*))\d{3}[ -]?\d{3}$/;//Namibie
 
-let regex32 = /^\+?227 ?(( ?\d{3}[- ]*))\d{3}[ -]?\d{2}$/;//Niger
+let regex32 = /^\+?227 ?(( ?\d{3}[- ]*))\d{3}[ -]?\d{3}$/;//Niger
 
-let regex33 = /^\+?234 ?(( ?\d{3}[- ]*))\d{3}[ -]?\d{2}$/;//Nigeria
+let regex33 = /^\+?234 ?(( ?\d{3}[- ]*))\d{3}[ -]?\d{3}$/;//Nigeria
 
-let regex34 = /^\+?256 ?(( ?\d{3}[- ]*))\d{3}[ -]?\d{2}$/;//Ouganda
+let regex34 = /^\+?256 ?(( ?\d{3}[- ]*))\d{3}[ -]?\d{3}$/;//Ouganda
 
-let regex35 = /^\+?243 ?(( ?\d{3}[- ]*))\d{3}[ -]?\d{2}$/;// Republique democratique du Congo
+let regex35 = /^\+?243 ?(( ?\d{3}[- ]*))\d{3}[ -]?\d{3}$/;// Republique democratique du Congo
 
-let regex36 = /^\+?242 ?(( ?\d{3}[- ]*))\d{3}[ -]?\d{2}$/;//Republique du Congo
+let regex36 = /^\+?242 ?(( ?\d{3}[- ]*))\d{3}[ -]?\d{3}$/;//Republique du Congo
 
-let regex37 = /^\+?250 ?(( ?\d{3}[- ]*))\d{3}[ -]?\d{2}$/;//Rwanda
+let regex37 = /^\+?250 ?(( ?\d{3}[- ]*))\d{3}[ -]?\d{3}$/;//Rwanda
 
-let regex38 = /^\+?239 ?(( ?\d{3}[- ]*))\d{3}[ -]?\d{2}$/;//Sao Tome-et-Principe
+let regex38 = /^\+?239 ?(( ?\d{3}[- ]*))\d{3}[ -]?\d{3}$/;//Sao Tome-et-Principe
 
-let regex39 = /^\+?221 ?(( ?\d{3}[- ]*))\d{3}[ -]?\d{2}$/;//Senegal
+let regex39 = /^\+?221 ?(( ?\d{3}[- ]*))\d{3}[ -]?\d{3}$/;//Senegal
 
-let regex40 = /^\+?248 ?(( ?\d{3}[- ]*))\d{3}[ -]?\d{2}$/;//Seychelles
+let regex40 = /^\+?248 ?(( ?\d{3}[- ]*))\d{3}[ -]?\d{3}$/;//Seychelles
 
-let regex41 = /^\+?232 ?(( ?\d{3}[- ]*))\d{3}[ -]?\d{2}$/;//Sierra Leone
+let regex41 = /^\+?232 ?(( ?\d{3}[- ]*))\d{3}[ -]?\d{3}$/;//Sierra Leone
 
-let regex42 = /^\+?252 ?(( ?\d{3}[- ]*))\d{3}[ -]?\d{2}$/;//Somalie
+let regex42 = /^\+?252 ?(( ?\d{3}[- ]*))\d{3}[ -]?\d{3}$/;//Somalie
 
-let regex43 = /^\+?249 ?(( ?\d{3}[- ]*))\d{3}[ -]?\d{2}$/;//Soudan
+let regex43 = /^\+?249 ?(( ?\d{3}[- ]*))\d{3}[ -]?\d{3}$/;//Soudan
 
-let regex44 = /^\+?268 ?(( ?\d{3}[- ]*))\d{3}[ -]?\d{2}$/;//Swaziland
+let regex44 = /^\+?268 ?(( ?\d{3}[- ]*))\d{3}[ -]?\d{3}$/;//Swaziland
 
-let regex45 = /^\+?255 ?(( ?\d{3}[- ]*))\d{3}[ -]?\d{2}$/;//Tanzanie
+let regex45 = /^\+?255 ?(( ?\d{3}[- ]*))\d{3}[ -]?\d{3}$/;//Tanzanie
 
-let regex46 = /^\+?235 ?(( ?\d{3}[- ]*))\d{3}[ -]?\d{2}$/;//tchad
+let regex46 = /^\+?235 ?(( ?\d{3}[- ]*))\d{3}[ -]?\d{3}$/;//tchad
 
-let regex47 = /^\+?228 ?(( ?\d{3}[- ]*))\d{3}[ -]?\d{2}$/;//Togo
+let regex47 = /^\+?228 ?(( ?\d{3}[- ]*))\d{3}[ -]?\d{3}$/;//Togo
 
-let regex48 = /^\+?216 ?(( ?\d{3}[- ]*))\d{3}[ -]?\d{2}$/;//Tunisie
+let regex48 = /^\+?216 ?(( ?\d{3}[- ]*))\d{3}[ -]?\d{3}$/;//Tunisie
 
-let regex49 = /^\+?263 ?(( ?\d{3}[- ]*))\d{3}[ -]?\d{2}$/;//Zimbabwe
+let regex49 = /^\+?263 ?(( ?\d{3}[- ]*))\d{3}[ -]?\d{3}$/;//Zimbabwe
 
 
 
